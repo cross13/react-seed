@@ -1,4 +1,3 @@
-const path = require('path');
 const commonPaths = require('./paths');
 
 module.exports = {
@@ -22,7 +21,7 @@ module.exports = {
           {
             loader: 'sass-loader', // compiles Sass to CSS
             options: {
-              includePaths: [path.join(__dirname, '..', 'src')],
+              includePaths: [commonPaths.srcPath],
             },
           },
         ],

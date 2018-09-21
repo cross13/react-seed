@@ -1,6 +1,5 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const path = require('path');
 const commonPaths = require('./paths');
 
 module.exports = {
@@ -28,7 +27,7 @@ module.exports = {
           {
             loader: 'sass-loader',
             options: {
-              includePaths: [path.join(__dirname, '..', 'src')],
+              includePaths: [commonPaths.srcPath],
             },
           },
         ],

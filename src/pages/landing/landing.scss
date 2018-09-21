@@ -1,0 +1,10 @@
+.Landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &--content {
+    margin-top: 10%;
+  }
+}

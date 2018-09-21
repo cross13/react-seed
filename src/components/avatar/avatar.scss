@@ -1,0 +1,12 @@
+.Avatar {
+  height: 200px;
+  width: 200px;
+
+  &--image {
+    background-image: url('../../images/dv.png');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+}

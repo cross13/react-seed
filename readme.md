@@ -18,7 +18,9 @@ src/
 |- App.jsx _________________________________ # Application init
 |  |- Components/
 |    |- hello-world/
-|       |- index.jsx _______________________ # Sample component
+|       |- index.jsx _______________________ # Default
+|       |- hello-world.jsx _________________ # Component
+|       |- hello-world.scss ________________ # Style
 
 webpack
 |- paths.js ________________________________ # webpack paths needed
