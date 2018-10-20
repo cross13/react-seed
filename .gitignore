@@ -27,3 +27,4 @@ package-lock.json
 # Editor/IDE
 .idea
 packages/api/etc/
+/.build

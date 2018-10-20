@@ -1,0 +1,16 @@
+exports.id = "main";
+exports.modules = {
+
+/***/ "./src/pages/landing/landing.jsx":
+/*!***************************************!*\
+  !*** ./src/pages/landing/landing.jsx ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_hello_world__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/hello-world */ \"./src/components/hello-world/index.jsx\");\n/* harmony import */ var _components_avatar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/avatar */ \"./src/components/avatar/index.js\");\n/* harmony import */ var _landing_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./landing.scss */ \"./src/pages/landing/landing.scss\");\n/* harmony import */ var _landing_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_landing_scss__WEBPACK_IMPORTED_MODULE_3__);\n(function () {\n  var enterModule = __webpack_require__(/*! react-hot-loader */ \"react-hot-loader\").enterModule;\n\n  enterModule && enterModule(module);\n})();\n\n\n\n\n\n\nvar Landing = function Landing() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"Landing\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"Landing--content\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_avatar__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_hello_world__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    title: \"Hello from React!!\"\n  })));\n};\n\nvar _default = Landing;\n/* harmony default export */ __webpack_exports__[\"default\"] = (_default);\n;\n\n(function () {\n  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ \"react-hot-loader\").default;\n\n  var leaveModule = __webpack_require__(/*! react-hot-loader */ \"react-hot-loader\").leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Landing, \"Landing\", \"/Users/cross/Sistemas/open-source/react-seed/src/pages/landing/landing.jsx\");\n  reactHotLoader.register(_default, \"default\", \"/Users/cross/Sistemas/open-source/react-seed/src/pages/landing/landing.jsx\");\n  leaveModule(module);\n})();\n\n;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/harmony-module.js */ \"./node_modules/webpack/buildin/harmony-module.js\")(module)))\n\n//# sourceURL=webpack:///./src/pages/landing/landing.jsx?");
+
+/***/ })
+
+};

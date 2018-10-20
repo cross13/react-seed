@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
-import Landing from './pages/landing';
+import { Helmet } from 'react-helmet';
+import Landing from '../pages/landing';
 
 class App extends Component {
   constructor(props) {
@@ -11,6 +12,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Helmet>
+          <title>React Seed</title>
+          <meta name="description" content="React Seed" />
+          <meta name="theme-color" content="#008f68" />
+        </Helmet>
         <Landing />
       </div>
     );
